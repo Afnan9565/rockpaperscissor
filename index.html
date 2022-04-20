@@ -8,6 +8,31 @@
     <link rel="stylesheet" href="sass.css">
 </head>
 <body>
-    
+    <div class="container">
+        <h1>Rock Paper Scissors</h1>
+        <div class="main">
+            <div class="your">
+                <h2>You Choosed:-</h2><span></span>
+            </div>
+            <div class="computer">
+                <h2>Computer Choosed:-</h2><span></span>
+            </div>
+        </div>
+        <div class="choose">
+            <button class="btn" onclick="rock()">
+                <img src="images/rock.png" alt="rock">
+            </button>
+            <button class="btn" onclick="paper()">
+                <img src="images/paper.png" alt="paper">
+            </button>
+            <button class="btn" onclick="scissor()">
+                <img src="images/scissor.png" alt="scissor">
+            </button>
+        </div>
+        <div class="results">
+            <h2></h2>
+        </div>
+    </div>
+    <script src="game.js"></script>
 </body>
 </html>

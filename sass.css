@@ -1,1 +1,97 @@
-/* No CSS *//*# sourceMappingURL=sass.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: url("images/bg.jpg");
+}
+
+.container {
+  background-color: #b6eb42;
+  width: 80%;
+  margin: auto;
+  margin-top: 4rem;
+  padding: 0.75rem;
+}
+
+h1, h2, span {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 600;
+  color: #b86363;
+}
+
+h2, span {
+  color: black;
+  display: inline;
+}
+
+span {
+  margin-left: 0.3rem;
+}
+
+.main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.your {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.computer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  -webkit-transform: translateY(-1rem);
+          transform: translateY(-1rem);
+}
+
+.choose {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.results {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=sass.css.map */

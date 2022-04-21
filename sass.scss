@@ -14,6 +14,7 @@ body{
     margin: auto;
     margin-top: 4rem;
     padding: 0.75rem;
+    border-radius: 1rem;
 }
 h1,h2,span{
     font-family: 'Plus Jakarta Sans', sans-serif;
@@ -55,9 +56,25 @@ span{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
+    margin-top: 2rem;
 }
 .results{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.points{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pointtxt{
+    font-size: 6rem;
+    color: chocolate;
+}
+.cp,.up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }

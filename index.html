@@ -12,10 +12,10 @@
         <h1>Rock Paper Scissors</h1>
         <div class="main">
             <div class="your">
-                <h2>You Choosed:-</h2><span></span>
+                <h2>You Choosed:-</h2><span id="usertxt"></span>
             </div>
             <div class="computer">
-                <h2>Computer Choosed:-</h2><span></span>
+                <h2>Computer Choosed:-</h2><span id="computertxt"></span>
             </div>
         </div>
         <div class="choose">
@@ -30,7 +30,17 @@
             </button>
         </div>
         <div class="results">
-            <h2></h2>
+            <h2 id="results"></h2>
+        </div>
+        <div class="points">
+            <div class="up">
+                <h2>User Points:-</h2><br>
+                <span id="uptxt" class="pointtxt"></span>
+            </div>
+            <div class="cp">
+                <h2>Computer Points:-</h2><br>
+                <span id="cptxt" class="pointtxt"></span>
+            </div>
         </div>
     </div>
     <script src="game.js"></script>
